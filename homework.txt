@@ -1,0 +1,21 @@
+2016302580176 唐振霆
+P2
+ host A  source port:80, source IP: B, dest port:26145, dest IP:A
+ host C 1: source port:80, source IP: B, dest port:7532, dest IP:C
+ host C 2: source port:80, source IP: B, dest port:26145, dest IP:C
+
+P3.
+ 和00101110 反码11010001
+it is used to find the error. if the sum contains 0, there is  an error.1 bit can be detected but 2 bits can't be detected.
+
+P4.
+ 和11000001 反码00111110
+ 和01000000 反码10111111
+ 01111100 01000101
+
+P5.
+ no, for example if these two words are 00000001 and 00000000. one's complement gives 11111110. But if these two words are 11111111 and 11111110 it is still 11111110.
+
+P50.  
+ a) after 1000 msec the windows size are both 1 segment
+ b) No, C1's RTT is not same as the C2's RTT.
